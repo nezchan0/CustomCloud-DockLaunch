@@ -1,100 +1,87 @@
-# CustomCloud: DockLaunch
+# 🚀 CustomCloud: DockLaunch
 
-**CustomCloud: DockLaunch** is a platform that allows you to instantly deploy any GitHub repository containing a Dockerfile. No configuration is required — just provide a repository link, and your application is live with a public URL via Ngrok in seconds.
+**CustomCloud: DockLaunch** is a platform that allows you to instantly deploy any GitHub repository containing a `Dockerfile`.  
+No configuration is required — just provide a repository link, and your application goes live with a public URL via **Ngrok** in seconds.
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
 - **Deploy from GitHub Repository**  
-  Deploy any public GitHub repository with a valid `Dockerfile` in the root directory.
+  Instantly deploy any public GitHub repository with a valid `Dockerfile` in the root directory.
 
 - **Zero Configuration**  
   No need to manually configure Docker or environment settings.
 
 - **Instant Public URL**  
-  Every deployment receives a secure public URL through Ngrok.
+  Each deployment gets a secure public URL through **Ngrok**.
 
 - **Secure Isolation**  
-  Each deployment runs in its own isolated container.
+  Every deployment runs in its own isolated Docker container.
 
 - **Container Management**  
-  Automated container deployment and cleanup.
+  Automated container creation and cleanup.
 
 - **Resource Control**  
-  Easily manage and scale your application resources.
+  Manage and scale your application resources easily.
 
 - **Rapid Setup**  
-  Go from repository to live application in under 60 seconds.
+  Go from repository to live app in under **60 seconds**.
 
 ---
 
 ## 💻 Tech Stack
 
-- **Frontend:** React  
-- **Backend:** Django & Django REST Framework  
-- **Containerization:** Docker  
-- **URL Exposure:** Ngrok  
-- **Git Integration:** GitPython  
-- **Others:** Requests, python-dotenv
+| Component | Technology |
+|------------|-------------|
+| **Frontend** | React |
+| **Backend** | Django & Django REST Framework |
+| **Containerization** | Docker |
+| **URL Exposure** | Ngrok |
+| **Git Integration** | GitPython |
+| **Others** | Requests, python-dotenv |
 
 ---
 
 ## ⚙️ How It Works
 
-1. **User Input:** The user provides a public GitHub repository URL with a `Dockerfile`.  
-2. **Backend Process:**  
-    - Clone the repository locally.  
-    - Build a Docker image from the repository.  
-    - Start a Docker container.  
-    - Use Ngrok to expose the container and generate a public URL.  
-3. **User Access:** The user receives a live URL to access their deployed application.
+1. **User Input:**  
+   The user provides a **public GitHub repository URL** that contains a `Dockerfile`.
 
-> **Note:** The repository must have a proper `Dockerfile` in the root directory for deployment.
+2. **Backend Process:**  
+   - Clone the repository locally  
+   - Build a Docker image from the repository  
+   - Run a Docker container  
+   - Expose the container via Ngrok and generate a public URL  
+
+3. **User Access:**  
+   The user receives a **live URL** to access their deployed application.
+
+> **Note:** The repository must have a valid `Dockerfile` in the root directory for deployment.
 
 ---
 
-## 📝 Installation
+## 🧩 Installation
 
-### Backend
+### 🖥 Backend Setup
 
-1. Clone this repository:  
+```bash
+# 1. Clone this repository
 git clone https://github.com/username/CustomCloud-DockLaunch.git
 cd CustomCloud-DockLaunch/backend
 
-text
-2. Create a virtual environment and activate it:
+# 2. Create a virtual environment and activate it
 python3 -m venv myenv
-source myenv/bin/activate # Linux/macOS
-myenv\Scripts\activate # Windows
+source myenv/bin/activate     # Linux/macOS
+myenv\Scripts\activate        # Windows
 
-text
-3. Install dependencies:
+# 3. Install dependencies
 pip install -r requirements.txt
 
-text
-4. Run Django server:
+# 4. Run Django server
 python manage.py runserver
 
-text
-5. Ensure Docker is running and Ngrok is installed.
-
-### Frontend
-
-1. Navigate to the frontend directory:
-cd ../frontend
-
-text
-2. Install dependencies:
-npm install
-
-text
-3. Start the React app:
-npm start
-
-text
-
----
+# 5. Ensure Docker is running and Ngrok is installed
 
 ## 📦 Usage
 
@@ -130,29 +117,6 @@ All operations include error handling and logging to ensure smooth deployments.
 
 ---
 
-## 📁 Project Structure
-
-CustomCloud-DockLaunch/
-├── backend/
-│ ├── deployment_manager.py
-│ ├── requirements.txt
-│ └── ...
-├── frontend/
-│ ├── src/
-│ └── ...
-└── README.md
-
-text
-
----
-
-## 🔗 Useful Links
-
-- Sample GitHub Projects
-- Docker Documentation
-- Ngrok Documentation
-
----
 
 ## 🛠 Future Improvements
 
