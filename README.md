@@ -68,7 +68,7 @@ No configuration is required — just provide a repository link, and your applic
 ```bash
 # 1. Clone this repository
 git clone https://github.com/username/CustomCloud-DockLaunch.git
-cd CustomCloud-DockLaunch/backend
+cd CustomCloud-DockLaunch/Backend_DockLaunch
 
 # 2. Create a virtual environment and activate it
 python3 -m venv myenv
@@ -82,6 +82,25 @@ pip install -r requirements.txt
 python manage.py runserver
 
 # 5. Ensure Docker is running and Ngrok is installed
+
+```
+
+### 🌐 Frontend Setup
+
+```bash
+# 1. Navigate to the frontend directory
+cd CustomCloud-DockLaunch/Frontend_DockLaunch/project
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the React development server
+npm run dev
+
+# 4. Open the app in your browser
+# Default URL: http://localhost:3000
+
+# 5. Ensure the backend server is running before deploying repositories
 
 ```
 ## 📦 Usage
