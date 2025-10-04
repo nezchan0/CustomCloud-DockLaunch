@@ -83,6 +83,7 @@ python manage.py runserver
 
 # 5. Ensure Docker is running and Ngrok is installed
 
+```
 ## 📦 Usage
 
 - Open the frontend app in your browser.
