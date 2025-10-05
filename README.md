@@ -141,15 +141,41 @@ All operations include error handling and logging to ensure smooth deployments.
 
 Below are step-by-step visuals showing how **CustomCloud: DockLaunch** works — from landing on the homepage to deploying and managing applications.
 
-| Step | Description | Preview |
-|------|--------------|----------|
-| **1** | **Landing Page for DockLaunch** | ![Landing Page](Docs/Project_Flow_Images/1_Landing%20Page%20for%20DockLaunch.png) |
-| **2** | **Feature Section on Landing Page** | ![Feature Section](Docs/Project_Flow_Images/2_Feature%20Section%20on%20Landing%20Page.png) |
-| **3** | **Sample React Project Repository** | ![Sample Repo](Docs/Project_Flow_Images/3_Sample%20React%20Project%20Repository.png) |
-| **4** | **Deploying an Application via GitHub Repo Link** | ![Deploying App](Docs/Project_Flow_Images/4_Deploying%20a%20Application%20via%20Github%20repo%20link.png) |
-| **5** | **Application Deployed Successfully with Active Status** | ![Deployed Successfully](Docs/Project_Flow_Images/5_Application%20Deployed%20Successfully%20with%20Active%20Status.png) |
-| **6** | **Hosted Application Accessible with Public URL** | ![Hosted App](Docs/Project_Flow_Images/6_Hosted%20Application%20can%20now%20be%20accessed%20with%20Public%20url.png) |
-| **7** | **Stopping the Application** | ![Stopping App](Docs/Project_Flow_Images/7_Stopping%20the%20Application.png) |
+---
+
+### 🖥️ 1. Landing Page for DockLaunch
+![Landing Page](Docs/Project_Flow_Images/1_Landing%20Page%20for%20DockLaunch.png)
+
+---
+
+### ⚙️ 2. Feature Section on Landing Page
+![Feature Section](Docs/Project_Flow_Images/2_Feature%20Section%20on%20Landing%20Page.png)
+
+---
+
+### 📁 3. Sample React Project Repository
+![Sample Repo](Docs/Project_Flow_Images/3_Sample%20React%20Project%20Repository.png)
+
+---
+
+### 🚀 4. Deploying an Application via GitHub Repo Link
+![Deploying App](Docs/Project_Flow_Images/4_Deploying%20a%20Application%20via%20Github%20repo%20link.png)
+
+---
+
+### ✅ 5. Application Deployed Successfully with Active Status
+![Deployed Successfully](Docs/Project_Flow_Images/5_Application%20Deployed%20Successfully%20with%20Active%20Status.png)
+
+---
+
+### 🌐 6. Hosted Application Accessible with Public URL
+![Hosted App](Docs/Project_Flow_Images/6_Hosted%20Application%20can%20now%20be%20accessed%20with%20Public%20url.png)
+
+---
+
+### 🛑 7. Stopping the Application
+![Stopping App](Docs/Project_Flow_Images/7_Stopping%20the%20Application.png)
+
 
 ---
 
