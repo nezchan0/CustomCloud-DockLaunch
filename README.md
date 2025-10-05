@@ -148,7 +148,7 @@ Below are step-by-step visuals showing how **CustomCloud: DockLaunch** works —
 
 ---
 
-### ⚙️ 2. Feature Section on Landing Page
+### ⚙️ 2. Features Section on Landing Page
 ![Feature Section](Docs/Project_Flow_Images/2_Feature%20Section%20on%20Landing%20Page.png)
 
 ---
