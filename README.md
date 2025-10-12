@@ -191,4 +191,4 @@ Below are step-by-step visuals showing how **CustomCloud: DockLaunch** works —
 
 ## 👤 Author
 
-Alok Maurya – Developer | Email: [alok05.maurya@gmail.com](alok05.maurya@gmail.com)
+Alok Kumar Maurya – Developer | Email: [alok05.maurya@gmail.com](alok05.maurya@gmail.com)
